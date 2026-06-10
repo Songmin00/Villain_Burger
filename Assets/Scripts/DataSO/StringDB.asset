@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: StringDB
+  m_EditorClassIdentifier: Assembly-CSharp::StringDB
+  associatedSheet: 1aGmyJ6rHFQrPX_8F3abgUADO4qJn9RDUjGgUcLYdURM
+  associatedWorksheet: String
+  headerRow: 2
+  typeRow: 1
+  dataStartRow: 3
+  DataList:
+  - key: BasicBun_Name
+    Kr: "\uCC38\uAE68\uBE75"
+    En: Basic Bun
+  - key: BriocheBun_Name
+    Kr: "\uBE0C\uB9AC\uC624\uC288 \uBC88"
+    En: Brioche Bun
+  - key: BeefPatty_Name
+    Kr: "\uC18C\uACE0\uAE30 \uD328\uD2F0"
+    En: Beef Patty
+  - key: PorkPatty_Name
+    Kr: "\uB3FC\uC9C0\uACE0\uAE30 \uD328\uD2F0"
+    En: Pork Patty
+  - key: ChickenPatty_Name
+    Kr: "\uCE58\uD0A8 \uD328\uD2F0"
+    En: Chicken Patty
+  - key: ShrimpPatty_Name
+    Kr: "\uC0C8\uC6B0 \uD328\uD2F0"
+    En: Shrimp Patty
+  - key: Lettuce_Name
+    Kr: "\uC591\uC0C1\uCD94"
+    En: Lettuce
+  - key: Tomato_Name
+    Kr: "\uD1A0\uB9C8\uD1A0"
+    En: Tomato
+  - key: Onion_Name
+    Kr: "\uC591\uD30C"
+    En: Onion
+  - key: KetchupSauce_Name
+    Kr: "\uCF00\uCCA9"
+    En: Ketchup
+  - key: MayonnaiseSauce_Name
+    Kr: "\uB9C8\uC694\uB124\uC988"
+    En: Mayonnaise
+  - key: MustardSauce_Name
+    Kr: "\uBA38\uC2A4\uD0C0\uB4DC \uC18C\uC2A4"
+    En: Mustard Sauce
+  - key: BarbequeSauce_Name
+    Kr: "\uBC14\uBCA0\uD050 \uC18C\uC2A4"
+    En: BBQ Sauce
+  - key: TartarSauce_Name
+    Kr: "\uD0C0\uB974\uD0C0\uB974 \uC18C\uC2A4"
+    En: Tartar Sauce
+  - key: TeriyakiSauce_Name
+    Kr: "\uB370\uB9AC\uC57C\uB07C \uC18C\uC2A4"
+    En: Teriyaki Sauce
+  - key: Cheese_Name
+    Kr: "\uCCB4\uB2E4 \uCE58\uC988"
+    En: Cheddar Cheese
+  - key: Bacon_Name
+    Kr: "\uBCA0\uC774\uCEE8"
+    En: Bacon
+  - key: Pickle_Name
+    Kr: "\uD53C\uD074"
+    En: Pickle
+  - key: Jalapeno_Name
+    Kr: "\uD560\uB77C\uD53C\uB1E8"
+    En: Jalapeno
+  - key: Pineapple_Name
+    Kr: "\uD30C\uC778\uC560\uD50C"
+    En: Pineapple
+  - key: BasicBun_Desc
+    Kr: "\uAC00\uC7A5 \uAE30\uBCF8\uC801\uC778 \uB2F4\uBC31\uD55C \uBC84\uAC70 \uBE75\uC785\uB2C8\uB2E4."
+    En: The most basic, savory burger bun.
+  - key: BriocheBun_Desc
+    Kr: "\uBC84\uD130 \uD5A5\uC774 \uD48D\uBD80\uD558\uACE0 \uBD80\uB4DC\uB7EC\uC6B4
+      \uACE0\uAE09 \uBC88\uC785\uB2C8\uB2E4."
+    En: A premium bun, rich in buttery flavor and soft texture.
+  - key: BeefPatty_Desc
+    Kr: "\uC721\uC999\uC774 \uAC00\uB4DD\uD55C \uC624\uB9AC\uC9C0\uB110 \uC18C\uACE0\uAE30
+      \uD328\uD2F0\uC785\uB2C8\uB2E4."
+    En: A juicy, original beef patty.
+  - key: PorkPatty_Desc
+    Kr: "\uACE0\uC18C\uD558\uACE0 \uBD80\uB4DC\uB7EC\uC6B4 \uB3FC\uC9C0\uACE0\uAE30
+      \uD328\uD2F0\uC785\uB2C8\uB2E4."
+    En: A savory and tender pork patty.
+  - key: ChickenPatty_Desc
+    Kr: "\uAC89\uC740 \uBC14\uC0AD\uD558\uACE0 \uC18D\uC740 \uCD09\uCD09\uD55C \uB2ED\uACE0\uAE30
+      \uD328\uD2F0\uC785\uB2C8\uB2E4."
+    En: A chicken patty, crispy on the outside and tender inside.
+  - key: ShrimpPatty_Desc
+    Kr: "\uD0F1\uAE00\uD0F1\uAE00\uD55C \uC0C8\uC6B0 \uC0B4\uC774 \uC539\uD788\uB294
+      \uD328\uD2F0\uC785\uB2C8\uB2E4."
+    En: A patty filled with plump, flavorful pieces of shrimp.
+  - key: Lettuce_Desc
+    Kr: "\uBC84\uAC70\uC758 \uC544\uC0AD\uD55C \uC2DD\uAC10\uC744 \uC0B4\uB824\uC8FC\uB294
+      \uC2E0\uC120\uD55C \uC591\uC0C1\uCD94\uC785\uB2C8\uB2E4."
+    En: Fresh lettuce that adds a crisp texture to the burger.
+  - key: Tomato_Desc
+    Kr: "\uAE54\uB054\uD558\uACE0 \uC0C1\uD07C\uD55C \uB9DB\uC744 \uB354\uD574\uC8FC\uB294
+      \uC2E0\uC120\uD55C \uD1A0\uB9C8\uD1A0 \uC2AC\uB77C\uC774\uC2A4\uC785\uB2C8\uB2E4."
+    En: Fresh tomato slices that add a clean, refreshing taste.
+  - key: Onion_Desc
+    Kr: "\uC54C\uC2F8\uD558\uBA74\uC11C\uB3C4 \uB2EC\uCF64\uD55C \uB9DB\uC744 \uB0B4\uB294
+      \uC591\uD30C \uC2AC\uB77C\uC774\uC2A4\uC785\uB2C8\uB2E4."
+    En: Onion slices that provide a sharp yet sweet flavor.
+  - key: KetchupSauce_Desc
+    Kr: "\uC0C8\uCF64\uB2EC\uCF64\uD55C \uC624\uB9AC\uC9C0\uB110 \uD1A0\uB9C8\uD1A0
+      \uCF00\uCCA9\uC785\uB2C8\uB2E4."
+    En: Sweet and sour original tomato ketchup.
+  - key: MayonnaiseSauce_Desc
+    Kr: "\uD48D\uBBF8\uB97C \uB04C\uC5B4\uC62C\uB824 \uC8FC\uB294 \uACE0\uC18C\uD558\uACE0
+      \uBD80\uB4DC\uB7EC\uC6B4 \uB9C8\uC694\uB124\uC988\uC785\uB2C8\uB2E4."
+    En: Creamy and rich mayonnaise that enhances the flavor.
+  - key: MustardSauce_Desc
+    Kr: "\uD1A1 \uC3D8\uB294 \uB9DB\uC774 \uC77C\uD488\uC778 \uBA38\uC2A4\uD0C0\uB4DC
+      \uC18C\uC2A4\uC785\uB2C8\uB2E4."
+    En: Tangy mustard sauce that gives a delightful kick.
+  - key: BarbequeSauce_Desc
+    Kr: "\uAE4A\uC740 \uC2A4\uBAA8\uD0A4 \uD5A5\uACFC \uB2EC\uCF64\uD568\uC744 \uB354\uD574\uC8FC\uB294
+      \uBC14\uBCA0\uD050 \uC18C\uC2A4\uC785\uB2C8\uB2E4."
+    En: BBQ sauce adding a deep smoky and sweet flavor.
+  - key: TartarSauce_Desc
+    Kr: "\uC0C8\uC6B0 \uD328\uD2F0\uC640 \uD658\uC0C1\uC758 \uAD81\uD569\uC744 \uC790\uB791\uD558\uB294
+      \uC0C8\uCF64\uACE0\uC18C\uD55C \uC18C\uC2A4\uC785\uB2C8\uB2E4."
+    En: A creamy, tangy sauce that pairs perfectly with shrimp.
+  - key: TeriyakiSauce_Desc
+    Kr: "\uB2E8\uC9E0\uB2E8\uC9E0 \uB9E4\uB825\uC774 \uAC00\uB4DD\uD55C \uC9C4\uD55C
+      \uB370\uB9AC\uC57C\uB07C \uC18C\uC2A4\uC785\uB2C8\uB2E4."
+    En: Sweet and savory teriyaki sauce packed with flavor.
+  - key: Cheese_Desc
+    Kr: "\uACE0\uC18C\uD558\uAC8C \uB179\uC544\uB0B4\uB824 \uD48D\uBBF8\uB97C \uB354\uD558\uB294
+      \uD074\uB798\uC2DD \uCCB4\uB2E4 \uCE58\uC988\uC785\uB2C8\uB2E4."
+    En: Classic cheddar cheese that melts beautifully for extra richness.
+  - key: Bacon_Desc
+    Kr: "\uBC14\uC0AD\uD558\uAC8C \uAD6C\uC6CC\uB0B4 \uC9ED\uC870\uB984\uD55C \uB9DB\uC744
+      \uB354\uD558\uB294 \uBCA0\uC774\uCEE8\uC785\uB2C8\uB2E4."
+    En: Crispy, savory bacon that adds a salty kick.
+  - key: Pickle_Desc
+    Kr: "\uB290\uB07C\uD568\uC744 \uC7A1\uC544\uC8FC\uB294 \uC0C8\uCF64\uB2EC\uCF64\uD55C
+      \uD53C\uD074\uC785\uB2C8\uB2E4."
+    En: Sweet and sour pickles that balance out the richness.
+  - key: Jalapeno_Desc
+    Kr: "\uBC84\uAC70\uC5D0 \uD654\uB048\uD558\uACE0 \uB9E4\uCF64\uD55C \uC790\uADF9\uC744
+      \uB354\uD574\uC8FC\uB294 \uD560\uB77C\uD53C\uB1E8\uC785\uB2C8\uB2E4."
+    En: Spicy jalapenos that add an exciting, fiery kick to the burger.
+  - key: Pineapple_Desc
+    Kr: "\uB2EC\uCF64\uD558\uACE0 \uC0C1\uD07C\uD55C \uACFC\uC999\uC744 \uB354\uD574\uC8FC\uB294
+      \uD30C\uC778\uC560\uD50C \uB9C1\uC785\uB2C8\uB2E4."
+    En: A sweet and juicy pineapple ring for a refreshing twist.
+  - key: ClassicBeef_Name
+    Kr: "\uD074\uB798\uC2DD \uBE44\uD504 \uBC84\uAC70"
+    En: Classic Beef Burger
+  - key: BeefCheese_Name
+    Kr: "\uBE44\uD504 \uCE58\uC988 \uBC84\uAC70"
+    En: Beef Cheese Burger
+  - key: BasicPork_Name
+    Kr: "\uBCA0\uC774\uC9C1 \uD3EC\uD06C \uBC84\uAC70"
+    En: Basic Pork Burger
+  - key: PorkPickle_Name
+    Kr: "\uD3EC\uD06C \uD53C\uD074 \uBC84\uAC70"
+    En: Pork Pickle Burger
+  - key: CrispyChicken_Name
+    Kr: "\uD06C\uB9AC\uC2A4\uD53C \uCE58\uD0A8 \uBC84\uAC70"
+    En: Crispy Chicken Burger
+  - key: MustardChicken_Name
+    Kr: "\uBA38\uC2A4\uD0C0\uB4DC \uCE58\uD0A8 \uBC84\uAC70"
+    En: Mustard Chicken Burger
+  - key: BaconBBQBeef_Name
+    Kr: "\uBCA0\uC774\uCEE8 BBQ \uBE44\uD504 \uBC84\uAC70"
+    En: Bacon BBQ Beef Burger
+  - key: DoublePorkBacon_Name
+    Kr: "\uB354\uBE14 \uD3EC\uD06C \uBCA0\uC774\uCEE8 \uBC84\uAC70"
+    En: Double Pork Bacon Burger
+  - key: TeriyakiPork_Name
+    Kr: "\uB370\uB9AC\uC57C\uB07C \uD3EC\uD06C \uBC84\uAC70"
+    En: Teriyaki Pork Burger
+  - key: TeriyakiChicken_Name
+    Kr: "\uB370\uB9AC\uC57C\uB07C \uCE58\uD0A8 \uBC84\uAC70"
+    En: Teriyaki Chicken Burger
+  - key: ClassicShrimp_Name
+    Kr: "\uD074\uB798\uC2DD \uC26C\uB9BC\uD504 \uBC84\uAC70"
+    En: Classic Shrimp Burger
+  - key: ShrimpCheese_Name
+    Kr: "\uC26C\uB9BC\uD504 \uCE58\uC988 \uBC84\uAC70"
+    En: Shrimp Cheese Burger
+  - key: JalapenoBeef_Name
+    Kr: "\uD560\uB77C\uD53C\uB1E8 \uBE44\uD504 \uD0C0\uC6CC \uBC84\uAC70"
+    En: Jalapeno Beef Tower Burger
+  - key: HawaiianChicken_Name
+    Kr: "\uD558\uC640\uC774\uC548 \uCE58\uD0A8 \uBC84\uAC70"
+    En: Hawaiian Chicken Burger
+  - key: HawaiianShrimp_Name
+    Kr: "\uD558\uC640\uC774\uC548 \uC26C\uB9BC\uD504 \uBC84\uAC70"
+    En: Hawaiian Shrimp Burger
+  - key: SpicyShrimp_Name
+    Kr: "\uC2A4\uD30C\uC774\uC2DC \uC26C\uB9BC\uD504 \uBC84\uAC70"
+    En: Spicy Shrimp Burger
+  - key: ClassicBeef_Desc
+    Kr: "\uC18C\uACE0\uAE30 \uD328\uD2F0\uC640 \uC2E0\uC120\uD55C \uC591\uC0C1\uCD94\uAC00
+      \uC5B4\uC6B0\uB7EC\uC9C4 \uAE30\uBCF8\uC5D0 \uCDA9\uC2E4\uD55C \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: The most essential burger with a beef patty and fresh lettuce.
+  - key: BeefCheese_Desc
+    Kr: "\uB179\uC544\uB0B4\uB9B0 \uACE0\uC18C\uD55C \uCCB4\uB2E4 \uCE58\uC988\uAC00
+      \uC624\uB9AC\uC9C0\uB110 \uC18C\uACE0\uAE30 \uD328\uD2F0\uC758 \uD48D\uBBF8\uB97C
+      \uB354\uD574\uC90D\uB2C8\uB2E4."
+    En: Melted savory cheddar cheese enhances the flavor of the original beef patty.
+  - key: BasicPork_Desc
+    Kr: "\uBD80\uB4DC\uB7EC\uC6B4 \uB3FC\uC9C0\uACE0\uAE30 \uD328\uD2F0\uB97C \uC0AC\uC6A9\uD558\uC5EC
+      \uB2F4\uBC31\uD558\uAC8C \uC990\uAE38 \uC218 \uC788\uB294 \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A mild and savory burger featuring a tender pork patty.
+  - key: PorkPickle_Desc
+    Kr: "\uB9C8\uC694\uB124\uC988\uC758 \uACE0\uC18C\uD568\uACFC \uD53C\uD074\uC758
+      \uC0B0\uBBF8\uAC00 \uB3FC\uC9C0\uACE0\uAE30 \uD328\uD2F0\uC640 \uC644\uBCBD\uD55C
+      \uC870\uD654\uB97C \uC774\uB8F9\uB2C8\uB2E4."
+    En: A perfect harmony of creamy mayo, tangy pickles, and a pork patty.
+  - key: CrispyChicken_Desc
+    Kr: "\uAC89\uBC14\uC18D\uCD09 \uCE58\uD0A8 \uD328\uD2F0\uC640 \uC544\uC0AD\uD55C
+      \uC591\uC0C1\uCD94\uC758 \uC870\uD654\uAC00 \uC77C\uD488\uC778 \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A fantastic combination of a crispy chicken patty and fresh lettuce.
+  - key: MustardChicken_Desc
+    Kr: "\uD1A1 \uC3D8\uB294 \uBA38\uC2A4\uD0C0\uB4DC\uC640 \uC54C\uC2F8\uD55C \uC591\uD30C\uAC00
+      \uCE58\uD0A8 \uD328\uD2F0\uC758 \uB9DB\uC744 \uD55C\uCE35 \uB04C\uC5B4\uC62C\uB9BD\uB2C8\uB2E4."
+    En: Tangy mustard and sharp onion elevate the flavor of the chicken patty.
+  - key: BaconBBQBeef_Desc
+    Kr: "\uC9C4\uD55C \uC2A4\uBAA8\uD0A4 \uBC14\uBCA0\uD050 \uC18C\uC2A4\uC640 \uBC14\uC0AD\uD55C
+      \uBCA0\uC774\uCEE8\uC774 \uB4EC\uBFCD \uB4E4\uC5B4\uAC04 \uC2DC\uADF8\uB2C8\uCC98
+      \uBA54\uB274\uC785\uB2C8\uB2E4."
+    En: A signature menu packed with smoky BBQ sauce and crispy bacon.
+  - key: DoublePorkBacon_Desc
+    Kr: "\uB450 \uC7A5\uC758 \uB3FC\uC9C0\uACE0\uAE30 \uD328\uD2F0\uC640 \uBCA0\uC774\uCEE8\uC73C\uB85C
+      \uB4E0\uB4E0\uD568\uC744 \uAF49 \uCC44\uC6B4 \uACE0\uAE30 \uB9E4\uB2C8\uC544\uC6A9
+      \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A hearty burger for meat lovers, stacked with two pork patties and bacon.
+  - key: TeriyakiPork_Desc
+    Kr: "\uACE0\uAE09 \uBE0C\uB9AC\uC624\uC288 \uBC88 \uC0AC\uC774\uC5D0 \uB2E8\uC9E0
+      \uB370\uB9AC\uC57C\uB07C \uC18C\uC2A4\uB97C \uBC14\uB978 \uB9E4\uB825\uC801\uC778
+      \uD3EC\uD06C \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A charming pork burger with sweet and savory teriyaki sauce in a brioche
+      bun.
+  - key: TeriyakiChicken_Desc
+    Kr: "\uBC14\uC0AD\uD55C \uCE58\uD0A8 \uD328\uD2F0\uC5D0 \uC2A4\uBA70\uB4E0 \uB2EC\uCF64\uD55C
+      \uB370\uB9AC\uC57C\uB07C \uC18C\uC2A4\uAC00 \uD658\uC0C1\uC801\uC778 \uB9DB\uC744
+      \uB0C5\uB2C8\uB2E4."
+    En: The sweet teriyaki sauce soaking into the crispy chicken patty is simply
+      fantastic.
+  - key: ClassicShrimp_Desc
+    Kr: "\uD1B5\uD1B5\uD55C \uC0C8\uC6B0 \uD328\uD2F0\uC640 \uD0C0\uB974\uD0C0\uB974
+      \uC18C\uC2A4\uC758 \uADFC\uBCF8\uC801\uC778 \uC870\uD569\uC744 \uC790\uB791\uD558\uB294
+      \uD574\uC0B0\uBB3C \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A classic seafood burger featuring a plump shrimp patty and tartar sauce.
+  - key: ShrimpCheese_Desc
+    Kr: "\uC0C8\uC6B0 \uD328\uD2F0\uC758 \uAC10\uCE60\uB9DB\uC5D0 \uCE58\uC988\uC758
+      \uACE0\uC18C\uD568\uACFC \uD1A0\uB9C8\uD1A0\uC758 \uC0C1\uD07C\uD568\uC744
+      \uB354\uD588\uC2B5\uB2C8\uB2E4."
+    En: The savory shrimp patty meets the richness of cheese and the freshness of
+      tomato.
+  - key: JalapenoBeef_Desc
+    Kr: "\uD560\uB77C\uD53C\uB1E8\uC758 \uD654\uB048\uD55C \uB9E4\uC6B4\uB9DB\uC774
+      \uCE35\uCE35\uC774 \uC313\uC778 \uAC70\uB300\uD55C \uC18C\uACE0\uAE30 \uD0C0\uC6CC
+      \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A massive beef tower burger layered with the fiery heat of jalapenos.
+  - key: HawaiianChicken_Desc
+    Kr: "\uAD6C\uC6B4 \uD30C\uC778\uC560\uD50C\uC758 \uB2EC\uCF64\uD568\uACFC \uBCA0\uC774\uCEE8\uC758
+      \uC9ED\uC9E4\uD568\uC774 \uB9CC\uB09C \uC774\uAD6D\uC801\uC778 \uCE58\uD0A8
+      \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: An exotic chicken burger combining sweet grilled pineapple and savory bacon.
+  - key: HawaiianShrimp_Desc
+    Kr: "\uC0C1\uD07C\uD55C \uD30C\uC778\uC560\uD50C \uACFC\uC999\uC774 \uC0C8\uC6B0\uC758
+      \uD48D\uBBF8\uB97C \uADF9\uB300\uD654\uD558\uB294 \uB9E4\uB825\uC801\uC778
+      \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A charming burger where refreshing pineapple juice maximizes the shrimp flavor.
+  - key: SpicyShrimp_Desc
+    Kr: "\uB9E4\uCF64\uD55C \uD560\uB77C\uD53C\uB1E8\uAC00 \uB354\uD574\uC838 \uC9C8\uB9AC\uC9C0
+      \uC54A\uACE0 \uB05D\uAE4C\uC9C0 \uB9DB\uC788\uB294 \uC790\uADF9\uC801\uC778
+      \uC26C\uB9BC\uD504 \uBC84\uAC70\uC785\uB2C8\uB2E4."
+    En: A stimulating shrimp burger with spicy jalapenos that keeps you wanting more.
+  - key: NewGame_UI
+    Kr: "\uC0C8 \uAC8C\uC784"
+    En: New Game
+  - key: LoadGame_UI
+    Kr: "\uBD88\uB7EC\uC624\uAE30"
+    En: Load Game
+  - key: Config_UI
+    Kr: "\uC124\uC815"
+    En: Config
+  - key: Exit_UI
+    Kr: "\uB098\uAC00\uAE30"
+    En: Exit
+  - key: ExitConfirm_UI
+    Kr: "\uC815\uB9D0\uB85C \uC885\uB8CC\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    En: Are you sure to exit game?
+  - key: GoToTitle_UI
+    Kr: "\uD0C0\uC774\uD2C0\uB85C"
+    En: Go to Title
+  - key: Language_UI
+    Kr: "\uC5B8\uC5B4 \uBCC0\uACBD"
+    En: Language
+  - key: Korean_UI
+    Kr: "\uD55C\uAD6D\uC5B4"
+    En: Korean
+  - key: English_UI
+    Kr: "\uC601\uC5B4"
+    En: English
+  - key: Volume_UI
+    Kr: "\uBCFC\uB968"
+    En: Volume
+  - key: MasterVol_UI
+    Kr: "\uC804\uCCB4 \uC74C\uB7C9"
+    En: Master
+  - key: BGMVol_UI
+    Kr: "\uBC30\uACBD \uC74C\uC545"
+    En: BGM
+  - key: SFXVol_UI
+    Kr: "\uD6A8\uACFC\uC74C"
+    En: SFX

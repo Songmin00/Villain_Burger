@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: IngredientDB
+  m_EditorClassIdentifier: Assembly-CSharp::IngredientDB
+  associatedSheet: 1aGmyJ6rHFQrPX_8F3abgUADO4qJn9RDUjGgUcLYdURM
+  associatedWorksheet: Ingredient
+  headerRow: 2
+  typeRow: 1
+  dataStartRow: 3
+  DataList:
+  - id: BasicBun_Id
+    nameKey: BasicBun_Name
+    descKey: BasicBun_Desc
+    type: 1
+    price: 10
+    unlockDate: 1
+  - id: BriocheBun_Id
+    nameKey: BriocheBun_Name
+    descKey: BriocheBun_Desc
+    type: 1
+    price: 25
+    unlockDate: 4
+  - id: BeefPatty_Id
+    nameKey: BeefPatty_Name
+    descKey: BeefPatty_Desc
+    type: 2
+    price: 25
+    unlockDate: 1
+  - id: PorkPatty_Id
+    nameKey: PorkPatty_Name
+    descKey: PorkPatty_Desc
+    type: 2
+    price: 20
+    unlockDate: 1
+  - id: ChickenPatty_Id
+    nameKey: ChickenPatty_Name
+    descKey: ChickenPatty_Desc
+    type: 2
+    price: 30
+    unlockDate: 3
+  - id: ShrimpPatty_Id
+    nameKey: ShrimpPatty_Name
+    descKey: ShrimpPatty_Desc
+    type: 2
+    price: 45
+    unlockDate: 5
+  - id: Lettuce_Id
+    nameKey: Lettuce_Name
+    descKey: Lettuce_Desc
+    type: 3
+    price: 15
+    unlockDate: 1
+  - id: Tomato_Id
+    nameKey: Tomato_Name
+    descKey: Tomato_Desc
+    type: 3
+    price: 20
+    unlockDate: 2
+  - id: Onion_Id
+    nameKey: Onion_Name
+    descKey: Onion_Desc
+    type: 3
+    price: 15
+    unlockDate: 3
+  - id: KetchupSauce_Id
+    nameKey: KetchupSauce_Name
+    descKey: KetchupSauce_Desc
+    type: 4
+    price: 5
+    unlockDate: 1
+  - id: MayonnaiseSauce_Id
+    nameKey: MayonnaiseSauce_Name
+    descKey: MayonnaiseSauce_Desc
+    type: 4
+    price: 10
+    unlockDate: 2
+  - id: MustardSauce_Id
+    nameKey: MustardSauce_Name
+    descKey: MustardSauce_Desc
+    type: 4
+    price: 10
+    unlockDate: 3
+  - id: BarbequeSauce_Id
+    nameKey: BarbequeSauce_Name
+    descKey: BarbequeSauce_Desc
+    type: 4
+    price: 15
+    unlockDate: 4
+  - id: TartarSauce_Id
+    nameKey: TartarSauce_Name
+    descKey: TartarSauce_Desc
+    type: 4
+    price: 15
+    unlockDate: 5
+  - id: TeriyakiSauce_Id
+    nameKey: TeriyakiSauce_Name
+    descKey: TeriyakiSauce_Desc
+    type: 4
+    price: 15
+    unlockDate: 5
+  - id: Cheese_Id
+    nameKey: Cheese_Name
+    descKey: Cheese_Desc
+    type: 5
+    price: 15
+    unlockDate: 1
+  - id: Bacon_Id
+    nameKey: Bacon_Name
+    descKey: Bacon_Desc
+    type: 5
+    price: 30
+    unlockDate: 4
+  - id: Pickle_Id
+    nameKey: Pickle_Name
+    descKey: Pickle_Desc
+    type: 5
+    price: 10
+    unlockDate: 2
+  - id: Jalapeno_Id
+    nameKey: Jalapeno_Name
+    descKey: Jalapeno_Desc
+    type: 5
+    price: 20
+    unlockDate: 6
+  - id: Pineapple_Id
+    nameKey: Pineapple_Name
+    descKey: Pineapple_Desc
+    type: 5
+    price: 35
+    unlockDate: 6
