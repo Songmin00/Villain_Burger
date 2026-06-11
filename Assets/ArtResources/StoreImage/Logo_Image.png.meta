@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 7944f9af086d63340b30eb7e2e282327
+guid: 95047bd09e2661c4e844e0b22473b839
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7926402869352416392
-    second: Logo_Image 2_0
+      213: -3439040166549876682
+    second: Logo_Image_0
   - first:
-      213: 7136692182585346082
-    second: Logo_Image 2_1
+      213: 4753042591522590797
+    second: Logo_Image_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,45 +116,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Logo_Image 2_0
+      name: Logo_Image_0
       rect:
         serializedVersion: 2
         x: 54
         y: 277
-        width: 891
-        height: 636
+        width: 895
+        height: 171
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 884436ee96d300e60800000000000000
-      internalID: 7926402869352416392
+      spriteID: 6309e7870331640d0800000000000000
+      internalID: -3439040166549876682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_Image 2_1
+      name: Logo_Image_1
       rect:
         serializedVersion: 2
-        x: 139
-        y: 57
-        width: 734
-        height: 223
+        x: 129
+        y: 124
+        width: 744
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2288e4e6abf9a0360800000000000000
-      internalID: 7136692182585346082
+      spriteID: d409106ed0336f140800000000000000
+      internalID: 4753042591522590797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_Image_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 447
+        width: 633
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4907f5847d97f2743a74ddf402fb5639
+      internalID: 1548034340
       vertices: []
       indices: 
       edges: []
@@ -163,7 +185,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c3c23f45a4cfae14fbafe92d63e0f6d8
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +195,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Logo_Image 2_0: 7926402869352416392
-      Logo_Image 2_1: 7136692182585346082
+      Logo_Image_0: -3439040166549876682
+      Logo_Image_1: 4753042591522590797
+      Logo_Image_2: 1548034340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
