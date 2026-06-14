@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: d2b6b48801add4d418a337b439828fa7
+guid: a9313e861c38608469506dfaa4b39bd9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4305447455841366865
-    second: BottomBriocheBun_0
+      213: 8536893861646595921
+    second: ShrimpPatty_0
+  - first:
+      213: 3859406214919478371
+    second: ShrimpPatty_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BottomBriocheBun_0
+      name: ShrimpPatty_Image_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2048
-        height: 2048
+        x: 83
+        y: 427
+        width: 1892
+        height: 1156
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fac4773a95aff34c0800000000000000
-      internalID: -4305447455841366865
+      spriteID: 36cd534218d5f8530800000000000000
+      internalID: 3859406214919478371
       vertices: []
       indices: 
       edges: []
@@ -138,7 +141,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ef8495d8e998e5f439032fe792d71a2b
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +151,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BottomBriocheBun_0: -4305447455841366865
+      ShrimpPatty_Image_0: 3859406214919478371
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

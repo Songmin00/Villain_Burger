@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: a9313e861c38608469506dfaa4b39bd9
+guid: a6fb6bceaaf6ebc4f96bd001f5c6ba62
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8536893861646595921
-    second: ShrimpPatty_0
-  - first:
-      213: 3859406214919478371
-    second: ShrimpPatty_1
+      213: -7959780580860664146
+    second: Kitchen_Bottom_Image_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ShrimpPatty_0
+      name: Kitchen_Bottom_Image_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1369
-        width: 2048
-        height: 679
+        y: 0
+        width: 2528
+        height: 782
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15778ac9cb3297670800000000000000
-      internalID: 8536893861646595921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ShrimpPatty_1
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 427
-        width: 1892
-        height: 1156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36cd534218d5f8530800000000000000
-      internalID: 3859406214919478371
+      spriteID: ea66fb30cbd298190800000000000000
+      internalID: -7959780580860664146
       vertices: []
       indices: 
       edges: []
@@ -163,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e6848df0e20a2e44aabff28a1150c7f2
     internalID: 0
     vertices: []
     indices: 
@@ -173,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ShrimpPatty_0: 8536893861646595921
-      ShrimpPatty_1: 3859406214919478371
+      Kitchen_Bottom_Image_0: -7959780580860664146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

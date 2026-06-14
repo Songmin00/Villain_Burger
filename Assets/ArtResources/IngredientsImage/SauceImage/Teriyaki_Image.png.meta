@@ -116,12 +116,12 @@ TextureImporter:
       name: Teriyaki_Image_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 88
-        width: 935
-        height: 835
+        x: 74
+        y: 300
+        width: 875
+        height: 433
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 966130b341e0ead4ca22ad96d4674c43
     internalID: 0
     vertices: []
     indices: 
