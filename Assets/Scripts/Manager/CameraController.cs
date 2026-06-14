@@ -5,14 +5,21 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float _cameraSpeed;
     [SerializeField] private Vector3[] _targetPos;
     public int CurrentFocus {  get; private set; }
-    public int IndexLength { get; private set; }
-    
+    public int IndexLength { get; private set; }    
+
     private Camera _camera;
     private Vector3 _currentTargetPos;
 
+
     private void Awake()
     {
-        CurrentFocus = 0;
+        Init(0);
+    }
+
+    //처음에 보고 있을 화면을 결정
+    private void Init(int index)
+    {
+        CurrentFocus = index;
         IndexLength = _targetPos.Length;
     }
 

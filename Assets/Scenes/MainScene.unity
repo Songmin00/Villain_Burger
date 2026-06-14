@@ -224,12 +224,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115800713}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1381, y: -12.3541, z: 0}
-  m_LocalScale: {x: 5.8775315, y: 3.1678882, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06082599, y: -2.1203563, z: 0}
+  m_LocalScale: {x: 5.0782194, y: 2.7370727, z: 0.8640055}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 430133006}
+  m_Father: {fileID: 791475097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &115800715
 BoxCollider2D:
@@ -335,6 +335,97 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &178476111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178476112}
+  - component: {fileID: 178476113}
+  m_Layer: 0
+  m_Name: GarbageBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178476112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178476111}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.1689, y: -17.1528, z: 0}
+  m_LocalScale: {x: 0.706907, y: 0.706907, z: 0.706907}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 320867604}
+  m_Father: {fileID: 1465538653}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &178476113
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178476111}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -7959780580860664146, guid: a6fb6bceaaf6ebc4f96bd001f5c6ba62, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 15.36, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &320867602
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,7 +489,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: -8608013265973586797, guid: 8998909e81695664fbc999899d0bbb4c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -419,11 +510,11 @@ Transform:
   m_GameObject: {fileID: 320867602}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.45, y: -17.15, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.885327, y: -0.25066993, z: 0}
+  m_LocalScale: {x: 1.4146134, y: 1.4146134, z: 1.4146134}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1465538653}
+  m_Father: {fileID: 178476112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &371382297
 GameObject:
@@ -512,7 +603,8 @@ Transform:
   m_LocalPosition: {x: 1.2085, y: -9.9, z: 0}
   m_LocalScale: {x: 1.1574, y: 1.1574, z: 1.1574}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 791475097}
   m_Father: {fileID: 430133006}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &430133005
@@ -545,9 +637,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 371382299}
-  - {fileID: 1582801791}
-  - {fileID: 115800714}
-  - {fileID: 1943688688}
   m_Father: {fileID: 1465538653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &486652648
@@ -892,6 +981,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591947163}
   m_CullTransparentMesh: 1
+--- !u!1 &791475096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 791475097}
+  m_Layer: 0
+  m_Name: Place
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &791475097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791475096}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1582801791}
+  - {fileID: 115800714}
+  - {fileID: 1943688688}
+  m_Father: {fileID: 371382299}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1110266030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1178,7 @@ MonoBehaviour:
   _targetPos:
   - {x: 0, y: 0, z: -10}
   - {x: 0, y: -10.5, z: -10}
+  - {x: 0, y: -14.9, z: -10}
 --- !u!1 &1465538652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,7 +1210,7 @@ Transform:
   m_Children:
   - {fileID: 1948661786}
   - {fileID: 430133006}
-  - {fileID: 320867604}
+  - {fileID: 178476112}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1582801790
@@ -1115,12 +1239,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582801790}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8809, y: -12.3541, z: 0}
-  m_LocalScale: {x: 5.5560303, y: 3.1678882, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.2612753, y: -2.1203563, z: 0}
+  m_LocalScale: {x: 4.800441, y: 2.7370727, z: 0.8640055}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 430133006}
+  m_Father: {fileID: 791475097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1582801792
 SpriteRenderer:
@@ -1389,12 +1513,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1943688687}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.15, y: -12.3541, z: 0}
-  m_LocalScale: {x: 5.8775315, y: 3.1678882, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.1334887, y: -2.1203563, z: 0}
+  m_LocalScale: {x: 5.0782194, y: 2.7370727, z: 0.8640055}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 430133006}
+  m_Father: {fileID: 791475097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1943688689
 BoxCollider2D:
@@ -1628,8 +1752,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -761.59, y: 0}
-  m_SizeDelta: {x: -1523.186, y: -585.6171}
+  m_AnchoredPosition: {x: -761.5901, y: 0.0025634766}
+  m_SizeDelta: {x: -1523.186, y: -0.0048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2139095171
 CanvasRenderer:
@@ -1652,12 +1776,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
   m_Padding:
-    m_Left: 0
+    m_Left: 20
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 4
-  m_Spacing: 0
+  m_ChildAlignment: 3
+  m_Spacing: 650
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0

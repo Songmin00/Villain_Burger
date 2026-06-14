@@ -33,14 +33,18 @@ public class UpDownButtonConnecter : MonoBehaviour
     private void OnUpButtonClick()
     {
         _handler.OnUpButtonClick();
-        _upButton.interactable = false;
-        _downButton.interactable = true;
+        ChangeButtonInteractable();
     }
 
     private void OnDownButtonClick()
     {
         _handler.OnDownButtonClick();
-        _downButton.interactable = false;
-        _upButton.interactable = true;
+        ChangeButtonInteractable();
+    }
+
+    private void ChangeButtonInteractable()
+    {
+        _upButton.interactable = _handler.CanMoveUp;
+        _downButton.interactable = _handler.CanMoveDown;
     }
 }
