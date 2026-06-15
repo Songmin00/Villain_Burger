@@ -1,6 +1,8 @@
 ﻿using System;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "IngredientDB", menuName = "DataSO/Ingredient")]
+public class IngredientDB : GoogleSheetParser<IngredientData> { }
 
 public enum ingType //enum은 사용되는 개별 데이터 클래스에서 정의하도록 함(최초 사용 기준)
 {
@@ -18,6 +20,3 @@ public class IngredientData
     public int price;
     public int unlockDate;    
 }
-
-[CreateAssetMenu(fileName = "IngredientDB", menuName = "DataSO/Ingredient")]
-public class IngredientDB : GoogleSheetParser<IngredientData> { }

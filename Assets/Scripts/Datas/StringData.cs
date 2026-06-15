@@ -1,6 +1,8 @@
 ﻿using System;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "StringDB", menuName = "DataSO/String")]
+public class StringDB : GoogleSheetParser<StringData> { }
 
 [Serializable]
 public class StringData
@@ -10,6 +12,3 @@ public class StringData
     public string Kr;
     public string En;
 }
-
-[CreateAssetMenu(fileName = "StringDB", menuName = "DataSO/String")]
-public class StringDB : GoogleSheetParser<StringData> { }

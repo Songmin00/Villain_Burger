@@ -5,6 +5,9 @@ using UnityEngine;
 /// 테이블 파싱용 개별 데이터 클래스 생성 시 참고용 예시
 /// </summary>
 
+[CreateAssetMenu(fileName = "SampleDB", menuName = "DataSO/Sample")]
+public class SampleDB : GoogleSheetParser<SampleData> { }
+
 public enum SampleEnum //enum은 사용되는 개별 데이터 클래스에서 정의하도록 함(최초 사용 기준)
 {
     None, Korean, Chinese, American
@@ -21,6 +24,3 @@ public class SampleData
     public bool IsMan;
     public SampleEnum Nation;
 }
-
-[CreateAssetMenu(fileName = "SampleDB", menuName = "DataSO/Sample")]
-public class SampleDB : GoogleSheetParser<SampleData> { }

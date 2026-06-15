@@ -2,6 +2,9 @@
 using UnityEngine;
 
 
+[CreateAssetMenu(fileName = "BurgerDB", menuName = "DataSO/Burger")]
+public class BurgerDB : GoogleSheetParser<BurgerData> { }
+
 public enum burgerType //enum은 사용되는 개별 데이터 클래스에서 정의하도록 함(최초 사용 기준)
 {
     None, Beef, Chicken, Pork, Shrimp
@@ -37,6 +40,3 @@ public class BurgerData
     public int Jalapeno;
     public int Pineapple;
 }
-
-[CreateAssetMenu(fileName = "BurgerDB", menuName = "DataSO/Burger")]
-public class BurgerDB : GoogleSheetParser<BurgerData> { }
