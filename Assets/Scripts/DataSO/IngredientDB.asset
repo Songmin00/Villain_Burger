@@ -18,17 +18,29 @@ MonoBehaviour:
   typeRow: 1
   dataStartRow: 3
   DataList:
-  - id: BasicBun_Id
+  - id: BottomBasicBun_Id
     nameKey: BasicBun_Name
     descKey: BasicBun_Desc
     type: 1
     price: 10
     unlockDate: 1
-  - id: BriocheBun_Id
+  - id: TopBasicBun_Id
+    nameKey: BasicBun_Name
+    descKey: BasicBun_Desc
+    type: 1
+    price: 0
+    unlockDate: 1
+  - id: BottomBriocheBun_Id
     nameKey: BriocheBun_Name
     descKey: BriocheBun_Desc
     type: 1
     price: 25
+    unlockDate: 4
+  - id: TopBriocheBun_Id
+    nameKey: BriocheBun_Name
+    descKey: BriocheBun_Desc
+    type: 1
+    price: 0
     unlockDate: 4
   - id: BeefPatty_Id
     nameKey: BeefPatty_Name
@@ -60,17 +72,35 @@ MonoBehaviour:
     type: 3
     price: 15
     unlockDate: 1
+  - id: RawLettuce_Id
+    nameKey: Lettuce_Name
+    descKey: Lettuce_Desc
+    type: 3
+    price: 45
+    unlockDate: 1
   - id: Tomato_Id
     nameKey: Tomato_Name
     descKey: Tomato_Desc
     type: 3
     price: 20
     unlockDate: 2
+  - id: RawTomato_Id
+    nameKey: Tomato_Name
+    descKey: Tomato_Desc
+    type: 3
+    price: 60
+    unlockDate: 2
   - id: Onion_Id
     nameKey: Onion_Name
     descKey: Onion_Desc
     type: 3
     price: 15
+    unlockDate: 3
+  - id: RawOnion_Id
+    nameKey: Onion_Name
+    descKey: Onion_Desc
+    type: 3
+    price: 45
     unlockDate: 3
   - id: KetchupSauce_Id
     nameKey: KetchupSauce_Name
