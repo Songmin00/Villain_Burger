@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 59a00b3ecb7a6f34880c69d6fb4c6af8, type: 3}
   m_Name: BurgerDB
   m_EditorClassIdentifier: Assembly-CSharp::BurgerDB
   associatedSheet: 1aGmyJ6rHFQrPX_8F3abgUADO4qJn9RDUjGgUcLYdURM
